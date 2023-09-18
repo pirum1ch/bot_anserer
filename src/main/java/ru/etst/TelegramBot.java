@@ -14,16 +14,16 @@ public class TelegramBot extends TelegramLongPollingBot {
     final private String BOT_TOKEN = "6228111534:AAHZCc-H5bFLQAMni-aIcpfH8ezwJMfrHVE";
     final private String BOT_NAME = "pda_2023_Tristan_Bot";
 
-    String [] array = {"да",
-            "нет",
-            "конечно",
-            "не за что",
-            "абсолютно точно",
-            "никак нет",
-            "точно",
-            "не уверен",
-            "возможно",
-            "невозможно"};
+    String [] array = {"Да",
+            "Нет",
+            "Конечно",
+            "Ни за что",
+            "Абсолютно точно",
+            "Никак нет",
+            "Точно",
+            "Не уверен",
+            "Возможно да",
+            "Возможно нет"};
 
     public TelegramBot() {}
 
