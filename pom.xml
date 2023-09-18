@@ -30,7 +30,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>ru.etsts.Main</mainClass>
+                            <mainClass>ru.etst.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
