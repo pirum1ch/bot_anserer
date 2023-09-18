@@ -20,5 +20,21 @@
             <version>6.8.0</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <!-- Build an executable JAR -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>ru.etsts.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
